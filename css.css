@@ -1,0 +1,13 @@
+li {
+    transition: all 0.5s ease-out; /* Đang không chạy */
+}
+li > button{
+    float: right;
+    margin: 0 .2em;
+}
+#formedit{
+    display: none;
+}
+.top {
+    padding: .3em
+}

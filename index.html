@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng quản lý sản phẩm sử dụng hàm</title>
+    <script type="application/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css.css" rel="stylesheet"/>
+</head>
+<body onload="displayArr()">
+<div class="container">
+    <div class="top">
+        <label>Add new product</label>
+        <input type="text" id="a" />
+        <button type="button" class="btn btn-primary" onclick="addValue()">Add</button>
+        <!--<button type="button" class="btn btn-primary" onclick="displayArr()">Display</button>-->
+    </div>
+    <div>
+        <ul class="list-group" id="show">
+
+        </ul>
+    </div>
+    <div id="editvalue" class="top">
+        <form id="formedit">
+            <label>Edit name product</label>
+            <input type="text" id="nameproduct" />
+            <button type="button" class="btn btn-success" onclick="clickEdit()">Edit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
